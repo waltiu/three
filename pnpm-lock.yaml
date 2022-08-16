@@ -4,6 +4,7 @@ specifiers:
   '@rushstack/eslint-patch': ^1.1.4
   '@types/jsdom': ^20.0.0
   '@types/node': ^16.11.47
+  '@types/three': ^0.143.0
   '@vitejs/plugin-vue': ^3.0.1
   '@vitejs/plugin-vue-jsx': ^2.0.0
   '@vue/eslint-config-typescript': ^11.0.0
@@ -14,6 +15,7 @@ specifiers:
   jsdom: ^20.0.0
   npm-run-all: ^4.1.5
   pinia: ^2.0.17
+  three: ^0.143.0
   typescript: ~4.7.4
   vite: ^3.0.4
   vitest: ^0.21.0
@@ -23,6 +25,7 @@ specifiers:
 
 dependencies:
   pinia: 2.0.18_typescript@4.7.4+vue@3.2.37
+  three: 0.143.0
   vue: 3.2.37
   vue-router: 4.1.3_vue@3.2.37
 
@@ -30,6 +33,7 @@ devDependencies:
   '@rushstack/eslint-patch': 1.1.4
   '@types/jsdom': 20.0.0
   '@types/node': 16.11.49
+  '@types/three': 0.143.0
   '@vitejs/plugin-vue': 3.0.3_vite@3.0.7+vue@3.2.37
   '@vitejs/plugin-vue-jsx': 2.0.0_vite@3.0.7+vue@3.2.37
   '@vue/eslint-config-typescript': 11.0.0_e3f1dcdefd12bd49b82a63b36ac59846
@@ -483,8 +487,18 @@ packages:
     resolution: {integrity: sha512-Abq9fBviLV93OiXMu+f6r0elxCzRwc0RC5f99cU892uBITL44pTvgvEqlRlPRi8EGcO1z7Cp8A4d0s/p3J/+Nw==}
     dev: true
 
+  /@types/three/0.143.0:
+    resolution: {integrity: sha512-c5PonXOt8xk5q4ygmyjOX4Ec+FA7gwfdcMT/PveE9xrJs/0DDcf2lJkWrhEcmvx2ZefQCQBcogABnGqB0P4OsA==}
+    dependencies:
+      '@types/webxr': 0.5.0
+    dev: true
+
   /@types/tough-cookie/4.0.2:
     resolution: {integrity: sha512-Q5vtl1W5ue16D+nIaW8JWebSSraJVlK+EthKn7e7UcD4KWsaSJ8BqGPXNaPghgtcn/fhvrN17Tv8ksUsQpiplw==}
+    dev: true
+
+  /@types/webxr/0.5.0:
+    resolution: {integrity: sha512-IUMDPSXnYIbEO2IereEFcgcqfDREOgmbGqtrMpVPpACTU6pltYLwHgVkrnYv0XhWEcjio9sYEfIEzgn3c7nDqA==}
     dev: true
 
   /@typescript-eslint/eslint-plugin/5.33.1_ac9d23a22d787f7b7991fddcc31412d2:
@@ -2691,6 +2705,10 @@ packages:
   /text-table/0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
     dev: true
+
+  /three/0.143.0:
+    resolution: {integrity: sha512-oKcAGYHhJ46TGEuHjodo2n6TY2R6lbvrkp+feKZxqsUL/WkH7GKKaeu6RHeyb2Xjfk2dPLRKLsOP0KM2VgT8Zg==}
+    dev: false
 
   /tinypool/0.2.4:
     resolution: {integrity: sha512-Vs3rhkUH6Qq1t5bqtb816oT+HeJTXfwt2cbPH17sWHIYKTotQIFPk3tf2fgqRrVyMDVOc1EnPgzIxfIulXVzwQ==}
